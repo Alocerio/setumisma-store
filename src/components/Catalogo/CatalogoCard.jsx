@@ -7,7 +7,7 @@ const CatalogoCard = ({ name, stock, tipo, precio }) => {
 
   const cancelButtonRef = useRef(null);
   return (
-    <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-xl  rounded border-black">
+    <div className="lg:w-1/4 md:w-1/2 p-4 w-full justify-center flex hover:shadow-xl  rounded border-black">
       <Transition.Root show={open} as={Fragment}>
         <Dialog
           as="div"
